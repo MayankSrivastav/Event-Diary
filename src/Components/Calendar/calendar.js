@@ -11,3 +11,4 @@ const Calender = props => (
     value={props.value}
   />
 );
+export default Calender;
