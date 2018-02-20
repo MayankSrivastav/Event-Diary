@@ -19,3 +19,7 @@ class CreateEvent extends Component {
     this.onClick = this.onClick.bind(this);
   }
 }
+
+handleTextChange(event) {
+   this.setState({ text: event.target.value });
+}
