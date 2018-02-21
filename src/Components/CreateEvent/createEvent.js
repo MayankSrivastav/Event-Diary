@@ -18,8 +18,15 @@ class CreateEvent extends Component {
     this.handleDateChange = this.handleDateChange.bind(this);
     this.onClick = this.onClick.bind(this);
   }
+  
+  handleTextChange(event) {
+   this.setState({ text: event.target.value });
+  }
+
+// DateTime onChange callback 
+  // recieves the Date object
+  handleDateChange(value) {
+    this.setState({ date: value.toString() });
+  }
 }
 
-handleTextChange(event) {
-   this.setState({ text: event.target.value });
-}
