@@ -28,5 +28,10 @@ class CreateEvent extends Component {
   handleDateChange(value) {
     this.setState({ date: value.toString() });
   }
+  
+  onClick() {
+    const event = `${this.state.date} : ${this.state.text}`;
+    store.dispatch(createEvent(event));
+  }
 }
 
