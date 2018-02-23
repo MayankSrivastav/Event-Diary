@@ -33,5 +33,21 @@ class CreateEvent extends Component {
     const event = `${this.state.date} : ${this.state.text}`;
     store.dispatch(createEvent(event));
   }
+  
+  render() {
+    return (
+      <section className="create-events text-left">
+        <TextBox 
+          id="txt-event-name" 
+          placeholder="Your event name"
+          handleTextChange={this.handleTextChange}
+          value={this.state.text} 
+        />
+        
+      </section>
+    );
+  }
+}
+
 }
 
