@@ -43,7 +43,11 @@ class CreateEvent extends Component {
           handleTextChange={this.handleTextChange}
           value={this.state.text} 
         />
-        
+        <Calender
+          isOpen={true} 
+          value={this.state.date}
+          handleDateChange={this.handleDateChange}
+        />
       </section>
     );
   }
