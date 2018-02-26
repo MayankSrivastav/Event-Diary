@@ -48,6 +48,11 @@ class CreateEvent extends Component {
           value={this.state.date}
           handleDateChange={this.handleDateChange}
         />
+        <Button 
+          id="btn-create-event" 
+          name="Create event" 
+          onClick={this.onClick}
+        />
       </section>
     );
   }
