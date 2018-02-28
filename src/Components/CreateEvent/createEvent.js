@@ -57,6 +57,11 @@ class CreateEvent extends Component {
     );
   }
 }
+const mapStateToProps = state => {
+  return {
+    allEvents: state.allEvents
+  };
+};
 
 }
 
