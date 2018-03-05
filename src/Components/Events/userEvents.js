@@ -12,4 +12,10 @@ class UserEvents extends Component {
     this.state = {
       events: []
     }
+    
+    store.subscribe(() => {
+      this.setState({
+        events: store.getState().allEvents
+      });
+    });
 }
