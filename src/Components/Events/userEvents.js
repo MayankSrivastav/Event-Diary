@@ -18,4 +18,16 @@ class UserEvents extends Component {
         events: store.getState().allEvents
       });
     });
+    
+    render() {
+      return (
+        <div>
+          {
+            this.state.events.map(ev => {
+              return <div className="user-events"><p>{ev}</p></div>;
+            })
+          }
+        </div>
+      );
+  }
 }
