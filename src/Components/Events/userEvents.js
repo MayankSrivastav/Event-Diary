@@ -31,3 +31,4 @@ class UserEvents extends Component {
       );
   }
 }
+export default UserEvents;
