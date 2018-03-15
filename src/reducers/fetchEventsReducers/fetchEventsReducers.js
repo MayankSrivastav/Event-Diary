@@ -9,3 +9,4 @@ const fetchEventsReducers = (state =[], action) => {
       return state;
   }
 };
+export default fetchEventsReducers;
