@@ -7,3 +7,4 @@ const reducer = combineReducers({
   allEvents: createEventReducer,
   // allEvents: fetchEventsReducer
 });
+export default reducer;
