@@ -10,3 +10,12 @@
   padding: 20px;
   color: white;
 }
+
+.App-title {
+  font-family: 'Lato';
+}
+
+#btn-create-event {
+  margin-top: 280px;
+  width: 250px;
+}
