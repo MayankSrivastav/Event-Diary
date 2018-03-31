@@ -19,3 +19,8 @@
   margin-top: 280px;
   width: 250px;
 }
+
+#txt-event-name {
+  width: 250px;
+  margin-bottom: 10px;
+}
