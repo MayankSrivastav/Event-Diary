@@ -24,3 +24,11 @@
   width: 250px;
   margin-bottom: 10px;
 }
+
+.main-create-events {
+  border-right: 1px solid darkgray;
+}
+
+header {
+  margin-bottom: 10px;
+}
