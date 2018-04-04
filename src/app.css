@@ -32,3 +32,11 @@
 header {
   margin-bottom: 10px;
 }
+
+header > h1 {
+  color: cadetblue;
+}
+
+.rdt > .form-control {
+  width: 250px;
+}
