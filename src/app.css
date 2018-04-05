@@ -40,3 +40,17 @@ header > h1 {
 .rdt > .form-control {
   width: 250px;
 }
+
+
+#events {
+  height: 400px;
+  overflow: auto;
+}
+#events p {
+  padding: 5px;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  background-color: lightgray;
+  color: darkgreen;
+}
+
